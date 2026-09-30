@@ -1,0 +1,104 @@
+/* src/pages/Checkout.css */
+
+.checkout-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.shadow-card {
+  --background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.summary-banner {
+  background: rgba(var(--ion-color-primary-rgb), 0.05);
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: 1px dashed var(--ion-color-primary);
+  text-align: center;
+}
+
+.summary-banner p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.checkout-header {
+  margin-bottom: 20px;
+}
+
+.payment-fields {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.total-row {
+  --background: rgba(var(--ion-color-primary-rgb), 0.03);
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.place-order-btn {
+  --border-radius: 16px;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 1.1rem;
+  box-shadow: 0 10px 20px rgba(var(--ion-color-primary-rgb), 0.2);
+}
+
+.checkout-success {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.checkout-success h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.checkout-success p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Custom styles for IonItem with outline */
+ion-item.ion-margin-bottom {
+  --border-radius: 12px;
+  --padding-start: 16px;
+  margin-bottom: 16px;
+}
+
+ion-label[position="floating"] {
+  transform: translateY(0) scale(1) !important;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #666;
+}
+
+ion-input, ion-select {
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .checkout-wrapper {
+    padding: 0;
+  }
+  
+  .shadow-card {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,61 @@
+/* Hero slider button styles */
+.hero-cta {
+	--background: linear-gradient(90deg,#ff7a18,#af002d 70%);
+	--color: #ffffff;
+	--padding: 8px 16px;
+	--border-radius: 6px;
+}
+.hero-cta .button-native {
+	background: var(--background) !important;
+	color: var(--color) !important;
+	padding: var(--padding) !important;
+	border-radius: var(--border-radius) !important;
+}
+.hero-control {
+	background: rgba(0,0,0,0.45);
+	border: none;
+	color: #fff;
+	padding: 6px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.hero-control:hover {
+	background: rgba(0,0,0,0.6);
+}
+
+/* Category card tweaks */
+.category-card {
+	cursor: pointer;
+	overflow: hidden;
+}
+.category-card img {
+	height: 140px;
+	object-fit: cover;
+}
+.category-card ion-card-header {
+	padding: 8px 12px;
+}
+.category-card ion-card-title {
+	font-size: 14px;
+	text-align: left;
+}
+
+/* Horizontal carousel for categories */
+.category-carousel {
+	overflow: hidden;
+}
+.category-track {
+	display: flex;
+	gap: 12px;
+	align-items: stretch;
+	overflow-x: auto;
+	scroll-behavior: auto;
+   -webkit-overflow-scrolling: touch;
+	padding-bottom: 6px;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE 10+ */
+}
+.category-track::-webkit-scrollbar { display: none; }
+.category-track > div { flex: 0 0 auto; }
+.category-card { min-width: 200px; }
+
