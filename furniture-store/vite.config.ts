@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'Furniture-Store-App.git', 
+  base: '/Furniture-Store-App/',
   plugins: [
     react(),
     legacy()
