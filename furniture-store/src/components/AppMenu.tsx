@@ -132,7 +132,7 @@ const AppMenu: React.FC = () => {
            </div>
          )}
          <div style={{ padding: '0 20px 20px', textAlign: 'center' }}>
-            <IonText color="medium" style={{ fontSize: '0.75rem' }}>Furniture Store v1.0.4</IonText>
+            <IonText color="medium" style={{ fontSize: '0.75rem' }}>Furniox v1.0.4</IonText>
          </div>
       </IonFooter>
     </IonMenu>

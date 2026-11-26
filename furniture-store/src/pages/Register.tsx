@@ -72,7 +72,7 @@ const Register: React.FC = () => {
           <div className="register-card">
             <div className="register-card-header">
               <h2>Create Account</h2>
-              <p>Register to get started with FurnitureStore</p>
+              <p>Register to get started with Furniox</p>
             </div>
 
             <form onSubmit={handleRegister} className="register-form">

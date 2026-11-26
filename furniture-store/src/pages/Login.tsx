@@ -82,7 +82,7 @@ const Login: React.FC<LoginProps> = ({ redirectTo, onSuccess }) => {
 
         <div className="login-flex-container">
           <div className="login-branding">
-            <h1>Furniture<span>Store</span></h1>
+            <h1>Furni<span>ox</span></h1>
             <p>Elegance in every corner. Sign in to continue your journey.</p>
           </div>
 

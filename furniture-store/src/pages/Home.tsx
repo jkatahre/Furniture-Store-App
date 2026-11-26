@@ -93,7 +93,7 @@ const Home: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Furniture Store</IonTitle>
+          <IonTitle>Furniox</IonTitle>
           <IonButtons slot="end">
             <IonButton routerLink="/products">
               <IonIcon icon={listOutline} slot="icon-only" />
